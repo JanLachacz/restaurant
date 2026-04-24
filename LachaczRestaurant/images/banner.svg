@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <!-- Background -->
+  <rect width="1200" height="300" fill="#c0392b"/>
+
+  <!-- Dark red stripe at bottom -->
+  <rect y="240" width="1200" height="60" fill="#962d22"/>
+
+  <!-- Decorative circles -->
+  <circle cx="60" cy="150" r="80" fill="#962d22" opacity="0.5"/>
+  <circle cx="1140" cy="150" r="80" fill="#962d22" opacity="0.5"/>
+  <circle cx="150" cy="280" r="50" fill="#a93226" opacity="0.4"/>
+  <circle cx="1050" cy="20" r="50" fill="#a93226" opacity="0.4"/>
+
+  <!-- Dotted border top -->
+  <line x1="0" y1="18" x2="1200" y2="18" stroke="white" stroke-width="2" stroke-dasharray="10,10" opacity="0.4"/>
+  <!-- Dotted border bottom of main area -->
+  <line x1="0" y1="238" x2="1200" y2="238" stroke="white" stroke-width="2" stroke-dasharray="10,10" opacity="0.4"/>
+
+  <!-- Pizza emoji large left -->
+  <text x="80" y="175" font-size="100" text-anchor="middle">🍕</text>
+
+  <!-- Pizza emoji large right -->
+  <text x="1120" y="175" font-size="100" text-anchor="middle">🍕</text>
+
+  <!-- Main title -->
+  <text x="600" y="130" 
+        font-family="Georgia, serif" 
+        font-size="82" 
+        font-weight="bold"
+        fill="white" 
+        text-anchor="middle"
+        letter-spacing="3">Mario's Pizzeria</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="190" 
+        font-family="Georgia, serif" 
+        font-size="26" 
+        fill="#fde8e8" 
+        text-anchor="middle"
+        letter-spacing="2"
+        font-style="italic">Fresh dough. Real ingredients. Made with love since 1998.</text>
+
+  <!-- Bottom tagline -->
+  <text x="600" y="275" 
+        font-family="Arial, sans-serif" 
+        font-size="18" 
+        fill="#fde8e8" 
+        text-anchor="middle"
+        letter-spacing="4">✦ DINE IN  ·  CARRY OUT  ·  CATERING ✦</text>
+</svg>
